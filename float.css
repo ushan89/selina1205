@@ -1,0 +1,21 @@
+header{
+    height: 200px;
+    background-color: rgb(178, 196, 227);
+}
+aside{
+    height: 200px;
+    background-color: rgb(164, 143, 227);
+    width:50%;
+    float: left;
+}
+section{
+    height: 200px;
+    background-color: rgb(173, 214, 131);
+    width:50%;
+    float: right;
+}
+footer{
+    height: 100px;
+    background-color: rgb(181, 103, 178);
+    clear: both;
+}
