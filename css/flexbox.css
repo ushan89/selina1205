@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*導覽列樣式設計*/
+body,ul{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+nav{
+    background-color: rgb(179, 182, 228);
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(58, 41, 7);
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(127, 167, 201);
+    color: rgb(35, 87, 50);
+    transition: background-color 1.5s linear,color 1.5s ease-in-out ;
+}
+/*標題列樣式設計*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.526);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.gotop{
+    font-size: 50px;
+    color: rgb(7, 12, 17);
+    position: fixed;
+    right: 0px;
+    bottom: 30px;
+}
