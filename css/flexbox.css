@@ -51,3 +51,22 @@ nav a:hover{
     right: 0px;
     bottom: 30px;
 }
+
+/*相片清單樣式設定*/
+#photolist ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+#photolist li{
+    list-style-type: none;
+    margin: 10px;
+}
+#photolist img{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px grey;
+}
+#photolist .emptyitem{
+    width: 300px;
+}
